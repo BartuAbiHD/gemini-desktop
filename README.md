@@ -6,17 +6,20 @@ Gemini Desktop is a simple Desktop application for using Gemini, built using [El
 
 ## Features
 
-- Control for Hardware Acceleration
+- **Quick Toggle (Global Shortcut)**: Press `Alt + Space` anywhere on your computer to instantly show or hide the Gemini window.
+- **Background Execution**: The app intelligently minimizes to the System Tray when closed, ensuring fast access without restarting. You can restore it by clicking the Tray Icon or via `Alt + Space`.
+- **Hardware Acceleration Control**: Toggle hardware acceleration directly from the Tray context menu to improve performance or stability.
+- **Built-in Ad-Blocker**: Integrated with `@ghostery/adblocker-electron` to provide a clean and seamless web experience.
 
 ## Installation
 
-Dowload the latest [release](https://github.com/BartuAbiHD/gemini-desktop/releases) for Windows, Linux and MacOS.
+Download the latest [release](https://github.com/BartuAbiHD/gemini-desktop/releases) for Windows, Linux, and MacOS.
 
-For Windows... a standard Exectuable is provided, as well as a NuGet package. RPM and DEB packages are availbe for Linux Distrubtions (not tested!).
+For Windows, a standard Executable is provided, as well as a NuGet package. RPM and DEB packages are available for Linux Distributions (not tested!).
 
 ## Launching
 
-To run, just launch the executable via the Desktop Shortcut, or the Executable directly.
+To run, just launch the executable via the Desktop Shortcut, or the Executable directly. 
 
 ## Building
 
@@ -28,13 +31,13 @@ cd gemini-desktop
 npm install
 ```
 
-To run the application locally.
+To run the application locally:
 
 ```powershell
 npm run test
 ```
 
-To build the application installer.
+To build the application installers:
 
 ```powershell
 npm run make
@@ -45,7 +48,7 @@ npm run make
 - electron
 - electron-forge
 - electron-store
-- publisher-github
+- @ghostery/adblocker-electron
 
 ## Errata
 
