@@ -1,0 +1,25 @@
+{
+  "name": "gemini-desktop",
+  "version": "1.0.0",
+  "description": "Desktop app for Gemini.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartuAbiHD/gemini-desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BartuAbiHD/gemini-desktop/issues"
+  },
+  "homepage": "https://github.com/BartuAbiHD/gemini-desktop#readme",
+  "devDependencies": {
+    "electron": "^42.3.0"
+  }
+}
